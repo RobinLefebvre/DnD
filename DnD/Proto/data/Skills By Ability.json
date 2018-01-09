@@ -1,0 +1,38 @@
+{
+    "Charisma" : 
+     [
+          "Deception",
+          "Intimidation",
+          "Performance",
+          "Persuasion"
+    ],
+    "Dexterity" : 
+     [
+          "Acrobatics",
+          "Sleight Of Hand",
+          "Stealth"
+    ],
+    "Wisdom" : 
+     [
+          "Animal Handling",
+          "Insight",
+          "Medicine",
+          "Perception",
+          "Survival"
+    ],
+    "Intelligence" : 
+     [
+          "Arcana",
+          "History",
+          "Investigation",
+          "Nature",
+          "Religion"
+    ],
+    "Strength" : 
+     [
+          "Athletics"
+    ],
+    "Constitution" : 
+     [
+    ]
+}

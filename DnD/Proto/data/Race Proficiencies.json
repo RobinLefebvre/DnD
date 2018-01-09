@@ -1,0 +1,173 @@
+{
+    "Gnome (Rock)" : 
+     [
+          "Darkvision (15)",
+          "Common",
+          "Gnomish",
+          "Artificer's Lore",
+          "Tinker's Tools",
+          "Craft Clockwork Device"
+    ],
+    "Human" : 
+     [
+          "Darkvision (15)",
+          "Common",
+          "One Extra Language"
+    ],
+    "Orc" : 
+     [
+          "Darkvision (15)",
+          "Common",
+          "Orcish",
+          "Undercommon"
+    ],
+    "Gnome (Forest)" : 
+     [
+          "Darkvision (15)",
+          "Common",
+          "Gnomish",
+          "Advantage INT, WIS, CHA saving throws",
+          "Minor Illusion Cantrip",
+          "Speak with small beasts"
+    ],
+    "Goblin" : 
+     [
+          "Darkvision (30)",
+          "Common",
+          "Goblin",
+          "Undercommon"
+    ],
+    "Gnome (Deep)" : 
+     [
+          "Darkvision (30)",
+          "Common",
+          "Gnomish",
+          "Undercommon",
+          "Stone Camouflage"
+    ],
+    "Dragonborn" : 
+     [
+          "Common",
+          "Draconic",
+          "Breath Weapon",
+          "Elemental Resistance"
+    ],
+    "Half-Orc" : 
+     [
+          "Darkvision (15)",
+          "Common",
+          "Orcish",
+          "Intimidation",
+          "Relentless Endurance",
+          "Savage Critical"
+    ],
+    "Half-Elf" : 
+     [
+          "Darkvision (15)",
+          "Common",
+          "Elven",
+          "Charm Resistance",
+          "Sleep Resistance",
+          "Choose Two Skills",
+          "One Extra Language"
+    ],
+    "Dwarf (Hill)" : 
+     [
+          "Darkvision (15)",
+          "Common",
+          "Dwarvish",
+          "Stonecutter's Lore",
+          "Poison Resistance",
+          "Smith's Tools",
+          "HP max +1 per level"
+    ],
+    "Kobold" : 
+     [
+          "Darkvision (15)",
+          "Common"
+    ],
+    "Halfling (Stout)" : 
+     [
+          "Darkvision (15)",
+          "Common",
+          "Halfling",
+          "Lucky",
+          "Freightened Resistance",
+          "Move around larger creatures",
+          "Poison Resistance"
+    ],
+    "Elf (High)" : 
+     [
+          "Darkvision (15)",
+          "Common",
+          "Elven",
+          "Perception",
+          "Charm Resistance",
+          "Sleep resistance",
+          "Trance",
+          "Longbow",
+          "Shortbow",
+          "Longsword",
+          "Shortsword",
+          "One Wizard Cantrip",
+          "One extra language"
+    ],
+    "Elf (Drow)" : 
+     [
+          "Darkvision (30)",
+          "Common",
+          "Elven",
+          "Perception",
+          "Charm Resistance",
+          "Sleep resistance",
+          "Trance",
+          "Sunlight Sensitivity",
+          "Rapier",
+          "Shortsword",
+          "Hand Crossbow"
+    ],
+    "Tiefling" : 
+     [
+          "Darkvision (30)",
+          "Common",
+          "Infernal",
+          "Fire Resistance",
+          "Infernal Magic"
+    ],
+    "Halfling (Lightfoot)" : 
+     [
+          "Darkvision (15)",
+          "Common",
+          "Halfling",
+          "Lucky",
+          "Freightened Resistance",
+          "Move around larger creatures",
+          "Hide behind larger creatures"
+    ],
+    "Elf (Wood)" : 
+     [
+          "Darkvision (15)",
+          "Common",
+          "Elven",
+          "Perception",
+          "Charm Resistance",
+          "Sleep resistance",
+          "Trance",
+          "Longbow",
+          "Shortbow",
+          "Longsword",
+          "Shortsword",
+          "Mask Of The Wild"
+    ],
+    "Dwarf (Mountain)" : 
+     [
+          "Darkvision (15)",
+          "Common",
+          "Dwarvish",
+          "Stonecutter's Lore",
+          "Poison Resistance",
+          "Mason's Tools",
+          "Light",
+          "Medium"
+    ]
+}

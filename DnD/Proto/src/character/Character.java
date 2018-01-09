@@ -18,6 +18,7 @@ public class Character {
 	private int hitPoints;
 	
 	private int age;
+	private String ageDescription;
 	private String alignment;
 	
 	private Map<String, Integer> abilityScore 	= new HashMap<String, Integer>();
@@ -47,6 +48,7 @@ public class Character {
 			this.hitPoints ++;
 		}
 		this.age = age;
+		this.ageDescription = CharacterUtility.getAgeDescription(age, race);
 		this.alignment = alignment;
 		this.armorClass = new AC(abilityScore, proficiencies);
 		this.equipment = new Equipment(classes[0]);
@@ -72,7 +74,7 @@ public class Character {
 				bonus = this.getAbilityBonus(ability);
 			}
 		}
-		int dice = DiceRoll.rollDice("1d20 + " + bonus);
+		int dice = DiceRoll.rollDice(false, "1d20 + " + bonus);
 		return dice;
 	}
 	
@@ -174,7 +176,7 @@ public class Character {
 	/* START - toString  */
 	@Override
 	public String toString() {
-		return 	"Name : " + name + "\nRace : " + race + " | Age : " + age + "\nClasses : " + classes[0] 
+		return 	"Name : " + name + "\nRace : " + race + " | Age : " + age + " ("+ ageDescription +")\nClasses : " + classes[0] 
 				+ "\n\nLevel : " + level + "  | Experience : " + experience 
 				+ "\nHit Points : " + hitPoints + "\nProficiency Bonus : " + proficiencyBonus 
 				+ "\nMovement Speed : " + movementSpeed/5 + " meters per action"

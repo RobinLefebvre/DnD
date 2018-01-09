@@ -10,7 +10,7 @@ public class Skill {
 		this.proficient = proficiency;
 	}
 
-	int getBonus() {
+	public int getBonus() {
 		return bonus;
 	}
 	

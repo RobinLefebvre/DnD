@@ -1,0 +1,74 @@
+{
+    "Gnome (Rock)" : 
+     [
+          "25"
+    ],
+    "Human" : 
+     [
+          "30"
+    ],
+    "Orc" : 
+     [
+          "30"
+    ],
+    "Gnome (Forest)" : 
+     [
+          "25"
+    ],
+    "Goblin" : 
+     [
+          "30"
+    ],
+    "Gnome (Deep)" : 
+     [
+          "25"
+    ],
+    "Dragonborn" : 
+     [
+          "30"
+    ],
+    "Half-Orc" : 
+     [
+          "30"
+    ],
+    "Half-Elf" : 
+     [
+          "30"
+    ],
+    "Dwarf (Hill)" : 
+     [
+          "25"
+    ],
+    "Kobold" : 
+     [
+          "30"
+    ],
+    "Halfling (Stout)" : 
+     [
+          "25"
+    ],
+    "Elf (High)" : 
+     [
+          "30"
+    ],
+    "Elf (Drow)" : 
+     [
+          "30"
+    ],
+    "Tiefling" : 
+     [
+          "30"
+    ],
+    "Halfling (Lightfoot)" : 
+     [
+          "25"
+    ],
+    "Elf (Wood)" : 
+     [
+          "35"
+    ],
+    "Dwarf (Mountain)" : 
+     [
+          "25"
+    ]
+}

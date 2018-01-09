@@ -1,0 +1,107 @@
+{	
+    "Name"  : "Aust",
+    "Race" : "Elf (Drow)",
+    "Age" : 114,
+    "Classes" : "Rogue",
+    "Level" : 1,
+    "Experience" : 0,
+    "Proficiency Bonus" : 2,
+    "Movement Speed" : 6,
+    "Hit Points" : 9,
+
+    "Ability Scores & Bonuses" : 
+    { 
+       "Strength" : [16, 3],
+       "Dexterity" : [11, 0],
+       "Constitution" : [13, 1],
+       "Intelligence" : [16, 3],
+       "Wisdom" : [15, 2],
+       "Charisma" : [15, 2]
+    },
+    "Skill Bonuses" : 
+    { 
+      "Acrobatics" : 2,
+      "Animal Handling" : 2,
+      "Arcana" : 3,
+      "Athletics" : 3,
+      "Deception" : 2,
+      "History" : 3,
+      "Insight" : 2,
+      "Intimidation" : 4,
+      "Investigation" : 3,
+      "Medicine" : 2,
+      "Nature" : 3,
+      "Perception" : 4,
+      "Performance" : 2,
+      "Persuasion" : 2,
+      "Religion" : 3,
+      "Sleight Of Hand" : 0,
+      "Stealth" : 2,
+      "Survival" : 2
+    },
+    "Skill Proficiencies" : 
+    [ 
+       "Acrobatics",
+       "Intimidation",
+       "Stealth",
+       "Perception"
+    ],
+    "Language Proficiencies" : 
+    [ 
+       "Elven",
+       "Common",
+       "Thieves' Cant"
+    ],
+    "Weapon Proficiencies":  
+    [ 
+       "Javelin",
+       "Light Hammer",
+       "Rapier",
+       "Sling",
+       "Hand Crossbow",
+       "Greatclub",
+       "Sickle",
+       "Longsword",
+       "Handaxe",
+       "Shortbow",
+       "Light Crossbow",
+       "Shortsword",
+       "Quarterstaff",
+       "Mace",
+       "Club",
+       "Dagger",
+       "Spear",
+       "Dart"
+    ],
+    "Armor Proficiencies" : 
+    [ 
+       "Light",
+       "Unarmored"
+    ],
+    "Armor Classes" : 
+    { 
+       "Unarmored" : "10",
+       "Padded" : "11",
+       "Leather" : "11",
+       "Studded" : "12"
+    },
+    "Features" : 
+    [ 
+       "Darkvision (30)",
+       "Sunlight Sensitivity",
+       "Thieves' Tools",
+       "Trance",
+       "Sleep resistance",
+       "Charm Resistance",
+       "Sneak Attack",
+       "Expertise"
+    ],
+    "Equipment" : 
+    [ 
+        "Burglar's Pack",
+        "Dagger (2)",
+        "Shortsword",
+        "Thieves' Tools",
+        "Leather",
+        "Shortbow"
+    ] }

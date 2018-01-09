@@ -1,0 +1,130 @@
+{
+    "Fighter" : 
+     [
+          "Acrobatics",
+          "Animal Handling",
+          "Athletics",
+          "History",
+          "Intimidation",
+          "Perception"
+    ],
+    "Druid" : 
+     [
+          "Animal Handling",
+          "Insight",
+          "Medicine",
+          "Nature",
+          "Perception",
+          "Religion",
+          "Survival"
+    ],
+    "Barbarian" : 
+     [
+          "Animal Handling",
+          "Athletics",
+          "Intimidation",
+          "Nature",
+          "Perception",
+          "Survival"
+    ],
+    "Ranger" : 
+     [
+          "Animal Handling",
+          "Athletics",
+          "Insight",
+          "Investigation",
+          "Nature",
+          "Perception",
+          "Stealth",
+          "Survival"
+    ],
+    "Cleric" : 
+     [
+          "History",
+          "Insight",
+          "Medicine",
+          "Persuasion",
+          "Religion"
+    ],
+    "Sorcerer" : 
+     [
+          "Arcana",
+          "Deception",
+          "Insight",
+          "Intimidation",
+          "Persuasion",
+          "Religion"
+    ],
+    "Monk" : 
+     [
+          "Acrobatics",
+          "Athletics",
+          "History",
+          "Insight",
+          "Religion",
+          "Stealth"
+    ],
+    "Paladin" : 
+     [
+          "Athletics",
+          "Insight",
+          "Intimidation",
+          "Medicine",
+          "Persuasion",
+          "Religion"
+    ],
+    "Rogue" : 
+     [
+          "Acrobatics",
+          "Athletics",
+          "Deception",
+          "Insight",
+          "Intimidation",
+          "Investigation",
+          "Perception",
+          "Performance",
+          "Persuasion",
+          "Sleight Of Hand",
+          "Stealth"
+    ],
+    "Wizard" : 
+     [
+          "Arcana",
+          "History",
+          "Insight",
+          "Investigation",
+          "Medicine",
+          "Religion"
+    ],
+    "Bard" : 
+     [
+          "Acrobatics",
+          "Animal Handling",
+          "Arcana",
+          "Athletics",
+          "Deception",
+          "History",
+          "Insight",
+          "Intimidation",
+          "Investigation",
+          "Medicine",
+          "Nature",
+          "Perception",
+          "Performance",
+          "Persuasion",
+          "Religion",
+          "Sleight Of Hand",
+          "Stealth",
+          "Survival"
+    ],
+    "Warlock" : 
+     [
+          "Arcana",
+          "Deception",
+          "History",
+          "Intimidation",
+          "Investigation",
+          "Nature",
+          "Religion"
+    ]
+}

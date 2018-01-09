@@ -130,8 +130,8 @@ public class ClassUtility {
 					p.add("Dart");
 					p.add("Javelin");
 					p.add("Mace");
-					p.add("Quarterstaffs");
-					p.add("Scimitars");
+					p.add("Quarterstaff");
+					p.add("Scimitar");
 					p.add("Sickle");
 					p.add("Sling");
 					p.add("Spear");

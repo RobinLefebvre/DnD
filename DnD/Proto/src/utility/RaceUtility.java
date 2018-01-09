@@ -9,13 +9,11 @@ public class RaceUtility {
 	public static Map<String, Integer> speed = new HashMap<String, Integer>();
 	public static Map<String, Map<String, Integer>> abilityBonus = new HashMap< String, Map<String, Integer> >();
 	public static Map<String, List<String>> proficiencies = new HashMap<String, List<String>>();
-	public static Map<String, String[]> ages = new HashMap<String, String[]>();
 	
 	static {
 		for(String race : CharacterUtility.racesList){
 			HashMap<String, Integer> map = new HashMap<String, Integer>();
 			List<String> p = new ArrayList<String>();
-			String[] age = new String[4];
 			switch(race){
 				case "Dragonborn" : 
 					speed.put(race, 30);
@@ -27,11 +25,6 @@ public class RaceUtility {
 					p.add("Breath Weapon");
 					p.add("Elemental Resistance");
 					proficiencies.put(race, p);
-					age[0] = Integer.toString(DiceRoll.rollDice("1d6 + 40"));
-					age[1] = Integer.toString(DiceRoll.rollDice("4d6 + 40"));
-					age[2] = Integer.toString(DiceRoll.rollDice("6d6 + 40"));
-					age[3] = Integer.toString(DiceRoll.rollDice("8d6 + 40"));
-					ages.put(race, age);
 					break;
 				case "Dwarf (Hill)" : 
 					speed.put(race, 25);
@@ -46,11 +39,6 @@ public class RaceUtility {
 					p.add("Smith's Tools");
 					p.add("HP max +1 per level");
 					proficiencies.put(race, p);
-					age[0] = Integer.toString(DiceRoll.rollDice("1d6 + 40"));
-					age[1] = Integer.toString(DiceRoll.rollDice("4d6 + 40"));
-					age[2] = Integer.toString(DiceRoll.rollDice("6d6 + 40"));
-					age[3] = Integer.toString(DiceRoll.rollDice("8d6 + 40"));
-					ages.put(race, age);
 					break;
 				case "Dwarf (Mountain)" : 
 					speed.put(race, 25);
@@ -66,11 +54,6 @@ public class RaceUtility {
 					p.add("Light");
 					p.add("Medium");
 					proficiencies.put(race, p);
-					age[0] = Integer.toString(DiceRoll.rollDice("1d6 + 40"));
-					age[1] = Integer.toString(DiceRoll.rollDice("4d6 + 40"));
-					age[2] = Integer.toString(DiceRoll.rollDice("6d6 + 40"));
-					age[3] = Integer.toString(DiceRoll.rollDice("8d6 + 40"));
-					ages.put(race, age);
 					break;
 				case "Elf (High)" :
 					speed.put(race, 30);
@@ -91,11 +74,7 @@ public class RaceUtility {
 					p.add("One Wizard Cantrip");
 					p.add("One extra language");
 					proficiencies.put(race, p);
-					age[0] = Integer.toString(DiceRoll.rollDice("1d6 + 110"));
-					age[1] = Integer.toString(DiceRoll.rollDice("5d6 + 110"));
-					age[2] = Integer.toString(DiceRoll.rollDice("7d6 + 110"));
-					age[3] = Integer.toString(DiceRoll.rollDice("11d6 + 110"));
-					ages.put(race, age);
+
 					break;
 				case "Elf (Wood)" : 
 					speed.put(race, 35);
@@ -115,11 +94,7 @@ public class RaceUtility {
 					p.add("Shortsword");
 					p.add("Mask Of The Wild");
 					proficiencies.put(race, p);
-					age[0] = Integer.toString(DiceRoll.rollDice("1d6 + 110"));
-					age[1] = Integer.toString(DiceRoll.rollDice("5d6 + 110"));
-					age[2] = Integer.toString(DiceRoll.rollDice("7d6 + 110"));
-					age[3] = Integer.toString(DiceRoll.rollDice("11d6 + 110"));
-					ages.put(race, age);
+					
 					break;
 				case "Elf (Drow)" : 
 					speed.put(race, 30);
@@ -138,11 +113,7 @@ public class RaceUtility {
 					p.add("Shortsword");
 					p.add("Hand Crossbow");
 					proficiencies.put(race, p);
-					age[0] = Integer.toString(DiceRoll.rollDice("1d6 + 110"));
-					age[1] = Integer.toString(DiceRoll.rollDice("5d6 + 110"));
-					age[2] = Integer.toString(DiceRoll.rollDice("7d6 + 110"));
-					age[3] = Integer.toString(DiceRoll.rollDice("11d6 + 110"));
-					ages.put(race, age);
+
 					break;
 				case "Gnome (Forest)" : 
 					speed.put(race, 25);
@@ -156,11 +127,7 @@ public class RaceUtility {
 					p.add("Minor Illusion Cantrip");
 					p.add("Speak with small beasts");
 					proficiencies.put(race, p);
-					age[0] = Integer.toString(DiceRoll.rollDice("1d6 + 40"));
-					age[1] = Integer.toString(DiceRoll.rollDice("5d6 + 40"));
-					age[2] = Integer.toString(DiceRoll.rollDice("7d6 + 40"));
-					age[3] = Integer.toString(DiceRoll.rollDice("10d6 + 40"));
-					ages.put(race, age);
+
 					break;
 				case "Gnome (Rock)" : 
 					speed.put(race, 25);
@@ -174,11 +141,7 @@ public class RaceUtility {
 					p.add("Tinker's Tools");
 					p.add("Craft Clockwork Device");
 					proficiencies.put(race, p);
-					age[0] = Integer.toString(DiceRoll.rollDice("1d6 + 40"));
-					age[1] = Integer.toString(DiceRoll.rollDice("5d6 + 40"));
-					age[2] = Integer.toString(DiceRoll.rollDice("7d6 + 40"));
-					age[3] = Integer.toString(DiceRoll.rollDice("10d6 + 40"));
-					ages.put(race, age);
+
 					break;
 				case "Gnome (Deep)" : 
 					speed.put(race, 25);
@@ -191,11 +154,6 @@ public class RaceUtility {
 					p.add("Undercommon");
 					p.add("Stone Camouflage");
 					proficiencies.put(race, p);
-					age[0] = Integer.toString(DiceRoll.rollDice("1d6 + 40"));
-					age[1] = Integer.toString(DiceRoll.rollDice("5d6 + 40"));
-					age[2] = Integer.toString(DiceRoll.rollDice("7d6 + 40"));
-					age[3] = Integer.toString(DiceRoll.rollDice("10d6 + 40"));
-					ages.put(race, age);
 					break;
 				case "Goblin" : 
 					speed.put(race, 30);
@@ -208,11 +166,6 @@ public class RaceUtility {
 					p.add("Goblin");
 					p.add("Undercommon");
 					proficiencies.put(race, p);
-					age[0] = Integer.toString(DiceRoll.rollDice("1d4 + 12"));
-					age[1] = Integer.toString(DiceRoll.rollDice("2d4 + 12"));
-					age[2] = Integer.toString(DiceRoll.rollDice("1d4 + 1d6 + 12"));
-					age[3] = Integer.toString(DiceRoll.rollDice("1d4 + 2d6 + 12"));
-					ages.put(race, age);
 					break;
 				case "Halfling (Lightfoot)" : 
 					speed.put(race, 25);
@@ -227,11 +180,6 @@ public class RaceUtility {
 					p.add("Move around larger creatures");
 					p.add("Hide behind larger creatures");
 					proficiencies.put(race, p);
-					age[0] = Integer.toString(DiceRoll.rollDice("1d4 + 20"));
-					age[1] = Integer.toString(DiceRoll.rollDice("3d4 + 20"));
-					age[2] = Integer.toString(DiceRoll.rollDice("1d4 + 2d6 + 20"));
-					age[3] = Integer.toString(DiceRoll.rollDice("1d4 + 3d6 + 20"));
-					ages.put(race, age);
 					break;
 				case "Halfling (Stout)" : 
 					speed.put(race, 25);
@@ -246,11 +194,7 @@ public class RaceUtility {
 					p.add("Move around larger creatures");
 					p.add("Poison Resistance");
 					proficiencies.put(race, p);
-					age[0] = Integer.toString(DiceRoll.rollDice("1d4 + 20"));
-					age[1] = Integer.toString(DiceRoll.rollDice("3d4 + 20"));
-					age[2] = Integer.toString(DiceRoll.rollDice("1d4 + 2d6 + 20"));
-					age[3] = Integer.toString(DiceRoll.rollDice("1d4 + 3d6 + 20"));
-					ages.put(race, age);
+
 					break;
 				case "Half-Elf" : /*TODO : 1 random attribute */
 					speed.put(race, 30);
@@ -264,11 +208,7 @@ public class RaceUtility {
 					p.add("Choose Two Skills");
 					p.add("One Extra Language");
 					proficiencies.put(race, p);
-					age[0] = Integer.toString(DiceRoll.rollDice("1d6 + 20"));
-					age[1] = Integer.toString(DiceRoll.rollDice("2d6 + 20"));
-					age[2] = Integer.toString(DiceRoll.rollDice("3d6 + 20"));
-					age[3] = Integer.toString(DiceRoll.rollDice("4d6 + 20"));
-					ages.put(race, age);
+
 					break;
 				case "Half-Orc" : 
 					speed.put(race, 30);
@@ -282,27 +222,20 @@ public class RaceUtility {
 					p.add("Relentless Endurance");
 					p.add("Savage Critical");
 					proficiencies.put(race, p);
-					age[0] = Integer.toString(DiceRoll.rollDice("1d4 + 14"));
-					age[1] = Integer.toString(DiceRoll.rollDice("2d4 + 14"));
-					age[2] = Integer.toString(DiceRoll.rollDice("1d4 + 1d6 + 14"));
-					age[3] = Integer.toString(DiceRoll.rollDice("1d4 + 2d6 + 14"));
-					ages.put(race, age);
 					break;
 				case "Human" : 
 					speed.put(race, 30);
-					for(String ability : CharacterUtility.abilityList){
-						map.put(ability, 1);
-					}
+					map.put("Strength", 1);
+					map.put("Dexterity", 1);
+					map.put("Intelligence", 1);
+					map.put("Constitution", 1);
+					map.put("Wisdom", 1);
+					map.put("Charisma", 1);
 					abilityBonus.put(race, map);
 					p.add("Darkvision (15)");
 					p.add("Common");
 					p.add("One Extra Language");
 					proficiencies.put(race, p);
-					age[0] = Integer.toString(DiceRoll.rollDice("1d4 + 15"));
-					age[1] = Integer.toString(DiceRoll.rollDice("2d4 + 15"));
-					age[2] = Integer.toString(DiceRoll.rollDice("1d4 + 1d6 + 15"));
-					age[3] = Integer.toString(DiceRoll.rollDice("1d4 + 2d6 + 15"));
-					ages.put(race, age);
 					break;
 				case "Kobold" : 
 					speed.put(race, 30);
@@ -312,11 +245,6 @@ public class RaceUtility {
 					p.add("Darkvision (15)");
 					p.add("Common");
 					proficiencies.put(race, p);
-					age[0] = Integer.toString(DiceRoll.rollDice("1d4 + 12"));
-					age[1] = Integer.toString(DiceRoll.rollDice("2d4 + 12"));
-					age[2] = Integer.toString(DiceRoll.rollDice("1d4 + 1d6 + 12"));
-					age[3] = Integer.toString(DiceRoll.rollDice("1d4 + 2d6 + 12"));
-					ages.put(race, age);
 					break;
 				case "Orc" : 
 					speed.put(race, 30);
@@ -329,11 +257,6 @@ public class RaceUtility {
 					p.add("Orcish");
 					p.add("Undercommon");
 					proficiencies.put(race, p);
-					age[0] = Integer.toString(DiceRoll.rollDice("1d4 + 12"));
-					age[1] = Integer.toString(DiceRoll.rollDice("2d4 + 12"));
-					age[2] = Integer.toString(DiceRoll.rollDice("1d4 + 1d6 + 12"));
-					age[3] = Integer.toString(DiceRoll.rollDice("1d4 + 2d6 + 12"));
-					ages.put(race, age);
 					break;
 				case "Tiefling" : 
 					speed.put(race, 30);
@@ -346,11 +269,6 @@ public class RaceUtility {
 					p.add("Fire Resistance");
 					p.add("Infernal Magic");
 					proficiencies.put(race, p);
-					age[0] = Integer.toString(DiceRoll.rollDice("2d6 + 20"));
-					age[1] = Integer.toString(DiceRoll.rollDice("6d4 + 20"));
-					age[2] = Integer.toString(DiceRoll.rollDice("8d6 + 20"));
-					age[3] = Integer.toString(DiceRoll.rollDice("10d6 + 20"));
-					ages.put(race, age);
 					break;
 			}
 		}

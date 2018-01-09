@@ -40,37 +40,39 @@ public class CharacterUtility {
 		return score;
 	}
 	
-	public static Map<String, String> toJSON(){
+	public static String getAgeDescription (int age, String race){
+		Map<String, int[]> ages = RandomAgeGenerator.ages.get(race);
+		String ret = "";
+		for (String s : ages.keySet()){
+			if(age > ages.get(s)[0] && age < ages.get(s)[1])
+				ret = s;	
+		}
+		return ret;
+	}
+	
+	public static Map<String, String> toJSON(boolean display){
 		Map<String, String> map = new HashMap <String, String>();
-		map.put("Alignments", Utility.listToJSON(alignmentsList));
-		map.put("Abilities", Utility.listToJSON(abilityList));
-		map.put("Skills", Utility.listToJSON(skillsList));
-		map.put("Races", Utility.listToJSON(racesList));
-		map.put("Classes", Utility.listToJSON(classList));
-		map.put("Languages", Utility.listToJSON(languageProf));
-		map.put("Weapons", Utility.listToJSON(weaponProf));
-		map.put("Skills By Ability", Utility.mapListToJSON(skillsAbilityMap));
-		map.put("Armor Types", Utility.mapListToJSON(armorProf));
-		map.put("Race Proficiencies", Utility.mapListToJSON(RaceUtility.proficiencies));
-		map.put("Race Speed", Utility.mapIntegerToJSON(RaceUtility.speed));
-		map.put("Race Age", Utility.mapStringArrayToJSON(RaceUtility.ages));
-		map.put("Race Abilities", Utility.mapMapIntegerToJSON(RaceUtility.abilityBonus));
-		map.put("Class Hit Points", Utility.mapIntegerToJSON(ClassUtility.hitPoints));
-		map.put("Class Accessible Skills", Utility.mapListToJSON(ClassUtility.accessibleProficiencies));
-		map.put("Class Proficiencies", Utility.mapListToJSON(ClassUtility.proficiencies));
-		map.put("Race Names", Utility.mapListToJSON(RandomNameGen.raceNames));
+		
+		map.put("Alignments", Utility.listToJSON(display, alignmentsList));
+		map.put("Abilities", Utility.listToJSON(display,abilityList));
+		map.put("Skills", Utility.listToJSON(display,skillsList));
+		map.put("Races", Utility.listToJSON(display,racesList));
+		map.put("Classes", Utility.listToJSON(display,classList));
+		map.put("Languages", Utility.listToJSON(display,languageProf));
+		map.put("Weapons", Utility.listToJSON(display,weaponProf));
+		map.put("Skills By Ability", Utility.mapListToJSON(display,skillsAbilityMap));
+		map.put("Armor Types", Utility.mapListToJSON(display,armorProf));
+		map.put("Race Proficiencies", Utility.mapListToJSON(display,RaceUtility.proficiencies));
+		map.put("Race Speed", Utility.mapIntegerToJSON(display,RaceUtility.speed));
+		map.put("Race Age", Utility.mapMapIntegerArrayToJSON(display,RandomAgeGenerator.ages));
+		map.put("Race Abilities", Utility.mapMapIntegerToJSON(display,RaceUtility.abilityBonus));
+		map.put("Class Hit Points", Utility.mapIntegerToJSON(display,ClassUtility.hitPoints));
+		map.put("Class Accessible Skills", Utility.mapListToJSON(display,ClassUtility.accessibleProficiencies));
+		map.put("Class Proficiencies", Utility.mapListToJSON(display,ClassUtility.proficiencies));
+		map.put("Race Names", Utility.mapListToJSON(display,RandomNameGen.raceNames));
 		return map;
 	}
 
-	public static int pickRandomAge(String race) {
-		String[] ages = RaceUtility.ages.get(race);
-		int avg = 0;
-		for (String a : ages){
-			int age = Integer.parseInt(a);
-			avg += (age / 2) + (new Random().nextInt(age));
-		}
-		avg = avg / ages.length;
-		return avg;
-	}
+	
 }
 

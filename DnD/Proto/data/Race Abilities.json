@@ -1,0 +1,97 @@
+{
+    "Gnome (Rock)" : 
+     {
+         "Intelligence" : "2",
+         "Constitution" : "1"
+    },
+    "Human" : 
+     {
+         "Charisma" : "1",
+         "Dexterity" : "1",
+         "Wisdom" : "1",
+         "Intelligence" : "1",
+         "Strength" : "1",
+         "Constitution" : "1"
+    },
+    "Orc" : 
+     {
+         "Intelligence" : "-1",
+         "Strength" : "2",
+         "Constitution" : "1"
+    },
+    "Gnome (Forest)" : 
+     {
+         "Dexterity" : "1",
+         "Intelligence" : "2"
+    },
+    "Goblin" : 
+     {
+         "Dexterity" : "2",
+         "Intelligence" : "-1",
+         "Constitution" : "1"
+    },
+    "Gnome (Deep)" : 
+     {
+         "Dexterity" : "1",
+         "Intelligence" : "2"
+    },
+    "Dragonborn" : 
+     {
+         "Charisma" : "1",
+         "Strength" : "2"
+    },
+    "Half-Orc" : 
+     {
+         "Strength" : "2",
+         "Constitution" : "1"
+    },
+    "Half-Elf" : 
+     {
+         "Charisma" : "2"
+    },
+    "Dwarf (Hill)" : 
+     {
+         "Wisdom" : "1",
+         "Constitution" : "2"
+    },
+    "Kobold" : 
+     {
+         "Dexterity" : "2",
+         "Strength" : "-2"
+    },
+    "Halfling (Stout)" : 
+     {
+         "Dexterity" : "2",
+         "Constitution" : "1"
+    },
+    "Elf (High)" : 
+     {
+         "Dexterity" : "2",
+         "Intelligence" : "1"
+    },
+    "Elf (Drow)" : 
+     {
+         "Charisma" : "1",
+         "Dexterity" : "2"
+    },
+    "Tiefling" : 
+     {
+         "Charisma" : "2",
+         "Intelligence" : "1"
+    },
+    "Halfling (Lightfoot)" : 
+     {
+         "Charisma" : "1",
+         "Dexterity" : "2"
+    },
+    "Elf (Wood)" : 
+     {
+         "Dexterity" : "2",
+         "Wisdom" : "1"
+    },
+    "Dwarf (Mountain)" : 
+     {
+         "Strength" : "2",
+         "Constitution" : "2"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "Heavy" : 
+     [
+          "Ring mail",
+          "Chain mail",
+          "Splint",
+          "Plate"
+    ],
+    "Shield" : 
+     [
+          "Shield"
+    ],
+    "Unarmored" : 
+     [
+          "Unarmored"
+    ],
+    "Light" : 
+     [
+          "Padded",
+          "Leather",
+          "Studded"
+    ],
+    "Medium" : 
+     [
+          "Hide",
+          "Chain shirt",
+          "Scale mail",
+          "Breastplate",
+          "Half plate"
+    ]
+}

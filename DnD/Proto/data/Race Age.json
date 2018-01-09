@@ -1,0 +1,110 @@
+{
+    "Gnome (Rock)" : 
+     {
+         "Young" : [41,44],
+         "Adult" : [44,61],
+         "Older" : [61,103]
+    },
+    "Human" : 
+     {
+         "Young" : [16,19],
+         "Adult" : [19,36],
+         "Older" : [36,78]
+    },
+    "Orc" : 
+     {
+         "Young" : [15,18],
+         "Adult" : [18,35],
+         "Older" : [35,77]
+    },
+    "Gnome (Forest)" : 
+     {
+         "Young" : [41,44],
+         "Adult" : [44,61],
+         "Older" : [61,103]
+    },
+    "Goblin" : 
+     {
+         "Young" : [13,16],
+         "Adult" : [16,33],
+         "Older" : [33,75]
+    },
+    "Gnome (Deep)" : 
+     {
+         "Young" : [41,44],
+         "Adult" : [44,61],
+         "Older" : [61,103]
+    },
+    "Dragonborn" : 
+     {
+         "Young" : [41,44],
+         "Adult" : [44,61],
+         "Older" : [61,103]
+    },
+    "Half-Orc" : 
+     {
+         "Young" : [15,18],
+         "Adult" : [18,35],
+         "Older" : [35,77]
+    },
+    "Half-Elf" : 
+     {
+         "Young" : [21,24],
+         "Adult" : [24,41],
+         "Older" : [41,83]
+    },
+    "Dwarf (Hill)" : 
+     {
+         "Young" : [41,44],
+         "Adult" : [44,61],
+         "Older" : [61,103]
+    },
+    "Kobold" : 
+     {
+         "Young" : [13,16],
+         "Adult" : [16,33],
+         "Older" : [33,75]
+    },
+    "Halfling (Stout)" : 
+     {
+         "Young" : [41,44],
+         "Adult" : [44,61],
+         "Older" : [61,103]
+    },
+    "Elf (High)" : 
+     {
+         "Young" : [111,130],
+         "Adult" : [130,529],
+         "Older" : [529,8547]
+    },
+    "Elf (Drow)" : 
+     {
+         "Young" : [111,130],
+         "Adult" : [130,529],
+         "Older" : [529,8547]
+    },
+    "Tiefling" : 
+     {
+         "Young" : [21,24],
+         "Adult" : [24,41],
+         "Older" : [41,83]
+    },
+    "Halfling (Lightfoot)" : 
+     {
+         "Young" : [41,44],
+         "Adult" : [44,61],
+         "Older" : [61,103]
+    },
+    "Elf (Wood)" : 
+     {
+         "Young" : [111,130],
+         "Adult" : [130,529],
+         "Older" : [529,8547]
+    },
+    "Dwarf (Mountain)" : 
+     {
+         "Young" : [41,44],
+         "Adult" : [44,61],
+         "Older" : [61,103]
+    }
+}
